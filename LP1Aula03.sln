@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Percorre String", "Percorre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayBiDim", "ArrayBiDim\ArrayBiDim.csproj", "{57CDD9E0-025C-4C2A-836D-48B4F2EC67C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NpcPerks", "NpcPerks\NpcPerks.csproj", "{8F5956FF-DFA2-4709-ACD9-E4E98F876407}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{57CDD9E0-025C-4C2A-836D-48B4F2EC67C3}.Release|x64.Build.0 = Release|Any CPU
 		{57CDD9E0-025C-4C2A-836D-48B4F2EC67C3}.Release|x86.ActiveCfg = Release|Any CPU
 		{57CDD9E0-025C-4C2A-836D-48B4F2EC67C3}.Release|x86.Build.0 = Release|Any CPU
+		{8F5956FF-DFA2-4709-ACD9-E4E98F876407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5956FF-DFA2-4709-ACD9-E4E98F876407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5956FF-DFA2-4709-ACD9-E4E98F876407}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8F5956FF-DFA2-4709-ACD9-E4E98F876407}.Debug|x64.Build.0 = Debug|Any CPU
+		{8F5956FF-DFA2-4709-ACD9-E4E98F876407}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8F5956FF-DFA2-4709-ACD9-E4E98F876407}.Debug|x86.Build.0 = Debug|Any CPU
+		{8F5956FF-DFA2-4709-ACD9-E4E98F876407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5956FF-DFA2-4709-ACD9-E4E98F876407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5956FF-DFA2-4709-ACD9-E4E98F876407}.Release|x64.ActiveCfg = Release|Any CPU
+		{8F5956FF-DFA2-4709-ACD9-E4E98F876407}.Release|x64.Build.0 = Release|Any CPU
+		{8F5956FF-DFA2-4709-ACD9-E4E98F876407}.Release|x86.ActiveCfg = Release|Any CPU
+		{8F5956FF-DFA2-4709-ACD9-E4E98F876407}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
