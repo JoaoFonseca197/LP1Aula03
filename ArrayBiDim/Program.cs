@@ -15,7 +15,13 @@ namespace ArrayBiDim
            //Pedir ao useer nº linhas da matriz
            Console.Write("Insira nº de linhas:");
            str = Console.ReadLine();
-           colunas = int.Parse(str);
+           linhas = int.Parse(str);
+
+           //pedir ao user num de colunas
+            Console.Write("Insira nº de colunas:");
+            str = Console.ReadLine();
+            colunas = int.Parse(str);
+
            //inicializar a matriz
            matriz = new float [linhas, colunas];
 
@@ -32,11 +38,11 @@ namespace ArrayBiDim
             //mostrar matriz e a media para cada linha
             for (int i = 0; i < matriz.GetLength(0); i++)
             {
-                float soma;
+                float soma = 0, media;
                 Console.Write("| ");
                 for (int j = 0; j < matriz.GetLength(1); j++)
                 {
-                    soma += 0;
+                    soma += matriz[i,j];
                     Console.Write(matriz[i,j]+" ");
                 }
                 media = soma / matriz.GetLength(1);
