@@ -9,20 +9,25 @@ namespace Percorre_String
             //Declaração de variáveis
             string str,cInString;
             char c;
+
             //pedir ao utilizador string
-            Console.Write("Insira a string:");
+            Console.Write("Insira uma string:");
             str = Console.ReadLine();
+
             //pedir ao utilizador caracter
-            Console.Write("Insira a caracter:");
+            Console.Write("Insira um carater:");
             cInString = Console.ReadLine();
-            c = Convert.ToChar(cInString)
+            c = Convert.ToChar(cInString);
+
             //percorrer a string
-            foreach( char cInString in str);
-                if(cInString != c)
+            foreach(char cDaStr in str)
+                if(cDaStr != c)
                 {
-                    Console.Write(cDastr);
+                    Console.Write(cDaStr);
                 }
             // imprimir string sem caracter
+
+            Console.WriteLine();
         }
     }
 }
